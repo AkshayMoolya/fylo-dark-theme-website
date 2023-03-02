@@ -168,8 +168,8 @@ main {
   padding: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 45px;
-  width: 900px;
+  gap: 30px;
+  width: 100%;
   margin-bottom: 300px;
   position: relative;
 }
@@ -342,7 +342,7 @@ footer {
 .icon ul li:hover {
   color: hsl(176, 68%, 64%);
 }
-.error{
+.error {
   color: red;
   font-weight: 400;
 }
@@ -351,9 +351,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .navbar {
-    width: 375px;
+    width: 100%;
     padding: 15px;
   }
   .navbar img {
@@ -363,16 +364,14 @@ footer {
     margin-right: 10px;
   }
   .contain {
-    width: 375px;
+    width: 300px;
   }
   .section {
     align-items: center;
     gap: 50px 0;
     width: 300px;
   }
-  .hero {
-    width: 375px;
-  }
+  
   .intro {
     width: 100%;
   }
@@ -380,17 +379,17 @@ footer {
     width: 300px;
   }
   .container {
-    width: 375px;
+    width: 100%;
   }
- .box{
-  width: 300px;
- }
- .box h2{
-width: 250px;
- }
- .box p{
-  width: 250px;
- }
+  .box {
+    width: 300px;
+  }
+  .box h2 {
+    width: 250px;
+  }
+  .box p {
+    width: 250px;
+  }
   .section .box:has([src="./images/icon-access-anywhere.svg"]) {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -416,13 +415,12 @@ width: 250px;
     grid-row-end: 5;
   }
   main {
-    width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .main {
-    width: 375px;
+    width: 100%;
   }
   .information {
     width: 300px;
@@ -436,7 +434,7 @@ width: 250px;
   .introT img {
     width: 100%;
   }
-  #apple{
+  #apple {
     left: 18px;
   }
   .grp {
@@ -445,15 +443,14 @@ width: 250px;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  
+
   .commenter {
-    width: 350px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 200px;
   }
-  .comment1{
+  .comment1 {
     width: 250px;
   }
   #comment1 {
@@ -475,25 +472,26 @@ width: 250px;
     grid-row-end: 4;
   }
   .submit {
-    width: 250px;
-    bottom: 706px;
+    width: 300px;
+    bottom: 750px;
   }
-  .submit h1{
+  .submit h1 {
     font-size: 20px;
   }
   .submit p {
     width: 100%;
   }
   .fix input {
-    width: 90%;
+    width: 100%;
     margin: 0 0 15px 0;
   }
   .fix button {
     width: 100%;
   }
   footer {
-    width: 375px;
+    width: 100%;
     height: 100%;
+   
   }
   footer .para {
     padding: 20px;
@@ -501,20 +499,19 @@ width: 250px;
     flex-direction: column;
     align-items: flex-start;
   }
-  .finish{
-    margin: 150px 0 0 30px;
+  .finish {
+    margin: 220px 0 0 30px;
   }
-  .caa{
-   margin-bottom: 25px
+  .caa {
+    margin-bottom: 25px;
   }
-  .mess{
+  .mess {
     margin-bottom: 40px;
   }
-  .About{
+  .About {
     margin-bottom: 25px;
-    
   }
-  .contact{
+  .contact {
     margin-bottom: 25px;
   }
 }
